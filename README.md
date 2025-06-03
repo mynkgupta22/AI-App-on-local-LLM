@@ -49,8 +49,8 @@ ollama pull llama3
 
 1. **Clone this repository:**
    ```
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone git@github.com:mynkgupta22/AI-App-on-local-LLM.git
+   cd AI-App-on-local-LLM
    ```
 
 2. **Start Ollama** (if not already running):
@@ -67,4 +67,3 @@ ollama pull llama3
 - The app communicates with Ollama at `http://localhost:11434/api/generate`.
 - Ensure your browser allows requests to `localhost:11434`.
 - If you want to use a different model, change the `modelName` variable in the script section of `index.html`.
-
